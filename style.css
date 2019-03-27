@@ -6,6 +6,52 @@ body {
   font-size: 60%;
   text-align: center
 }
+
+ul{
+text-align: center;
+  background: rgba(255, 128, 128);
+  color: white;
+  font-family: "Amatic SC", "arial";
+  font-size: 30px;
+}
+
+.topspace{
+  padding-top: 30px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+li{
+  display: inline;
+  padding: 0px 50px 0px 50px;
+}
+
+#home{
+  text-decoration: underline;
+}
+
+img{
+  border-radius: 50%;
+}
+
+p{
+  text-align: center;
+  color: white;
+  font-family: caveat;
+  font-size: 35px;
+  background: rgba(254, 127, 112, 0.7);
+  width: 500px;
+  height:80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  padding-top: 25px;
+  border-radius: 25px;
+}
+}
 img {
       display: flex;
       padding: 20px;
@@ -24,4 +70,6 @@ input[type=text], select, textarea, {
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) *
+
+
 }
