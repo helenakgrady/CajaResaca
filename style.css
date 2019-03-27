@@ -1,18 +1,22 @@
 body {
-  font-family: verdana;
+  font-family: Tahoma;
   color: rgb(0,0,0);
   margin: 0px;
-  background-color: rgb(229,254,255);
-  font-size: 60%;
+ background-image: url("background.jpg");
+ background-repeat: no-repeat;
+background-size: 100% x 100%;
+
+
+  font-size: 70%;
   text-align: center
 }
 
 ul{
 text-align: center;
-  background: rgba(255, 128, 128);
+  background: rgba(29, 137, 183, 0.8);
   color: white;
-  font-family: "Amatic SC", "arial";
-  font-size: 30px;
+  font-family: "Tahoma", "Tahoma";
+  font-size: 25px;
 }
 
 .topspace{
@@ -23,6 +27,13 @@ a{
   color: white;
   text-decoration: none;
 }
+
+
+a:hover {
+  background-size: 4px 50px;
+  background-color: rgba(189, 233, 237, 0.5);
+}
+
 
 li{
   display: inline;
@@ -40,9 +51,9 @@ img{
 p{
   text-align: center;
   color: white;
-  font-family: caveat;
-  font-size: 35px;
-  background: rgba(254, 127, 112, 0.7);
+  font-family: tahoma;
+  font-size: 33px;
+  background: rgba(29, 137, 183, 0.8);
   width: 500px;
   height:80px;
   margin-left: auto;
@@ -58,7 +69,7 @@ img {
       margin: 0 auto;
       border-radius: 130px;
 }
-Contact form  
+Contact form
 
 input[type=text], select, textarea, {
   font-size: 30%;
