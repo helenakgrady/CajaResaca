@@ -15,7 +15,7 @@ ul{
 text-align: center;
   background: rgba(29, 137, 183, 0.8);
   color: white;
-  font-family: "Tahoma", "Tahoma";
+  font-family: "Garamond";
   font-size: 25px;
 }
 
@@ -51,7 +51,7 @@ img{
 p{
   text-align: center;
   color: white;
-  font-family: tahoma;
+  font-family: Garamond;
   font-size: 33px;
   background: rgba(29, 137, 183, 0.8);
   width: 500px;

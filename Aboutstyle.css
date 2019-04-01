@@ -1,5 +1,5 @@
 body {
-  font-family: Tahoma;
+  font-family: Garamond;
   color: rgb(0,0,0);
   margin: 0px;
  background-image: url("aboutbackground.png");
@@ -9,12 +9,21 @@ background-size: 100% x 100%;
 
 ul{
 text-align: center;
-  background: rgba(255, 128, 128);
+  background: rgba(29, 137, 183, 0.8);
   color: black;
-  font-family: "Tahoma";
+  font-family: "Garamond";
   font-size: 30px;
 }
 
+ul2{
+text-align: center;
+  background: rgba(255, 255, 255, 255);
+  color: black;
+  font-family: "Garamond";
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 li{
   display: inline;
@@ -34,7 +43,7 @@ img{
 h1{
   font-size: 30px;
   text-align: center;
-  background: rgba(254, 127, 112, 0.7);
+  background: rgba(29, 137, 183, 0.8);
   width: 500px;
   height:50px;
   margin-left: auto;
@@ -51,7 +60,7 @@ h2{
 p{
   text-align: center;
   color: black;
-  font-family: "tahoma";
+  font-family: "Garamond";
   font-size: 20px;
   width: 700px;
   height:10px;
