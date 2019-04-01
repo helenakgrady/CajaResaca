@@ -44,6 +44,7 @@ li{
   text-decoration: underline;
 }
 
+
 img{
   border-radius: 50%;
 }
@@ -53,13 +54,15 @@ p{
   color: white;
   font-family: Garamond;
   font-size: 33px;
-  background: rgba(29, 137, 183, 0.8);
+  background: rgba(29, 137, 183, 1);
   width: 500px;
   height:80px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 80px;
-  padding-top: 25px;
+  padding-top: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
   border-radius: 25px;
 }
 }

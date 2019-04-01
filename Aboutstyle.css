@@ -2,27 +2,32 @@ body {
   font-family: Garamond;
   color: rgb(0,0,0);
   margin: 0px;
- background-image: url("aboutbackground.png");
+ background-image: url("surround.jpg");
  background-repeat: no-repeat;
-background-size: 100% x 100%;
+background-size: cover;
 }
 
 ul{
 text-align: center;
-  background: rgba(29, 137, 183, 0.8);
+  background: rgba(29, 137, 183, 1);
   color: black;
   font-family: "Garamond";
   font-size: 30px;
 }
 
-ul2{
-text-align: center;
+div{
+  text-align: center;
+}
+
+  ul2{
+  display: inline-block;
   background: rgba(255, 255, 255, 255);
   color: black;
   font-family: "Garamond";
   font-size: 20px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 15px;
 }
 
 li{
@@ -43,7 +48,7 @@ img{
 h1{
   font-size: 30px;
   text-align: center;
-  background: rgba(29, 137, 183, 0.8);
+  background: rgba(29, 137, 183, 1);
   width: 500px;
   height:50px;
   margin-left: auto;
@@ -70,4 +75,17 @@ p{
   padding-top: 5px;
   border-radius: 15px;
 }
+
+p2{
+  display: inline-block;
+  background: rgba(255, 255, 255, 255);
+  color: black;
+  font-family: "Garamond";
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
